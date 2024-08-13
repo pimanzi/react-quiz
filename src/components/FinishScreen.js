@@ -13,7 +13,7 @@ function FinishScreen({ points, pointsSum, highScore }) {
     <>
       <p className="result">
         {emoji} You scored <strong>{points}</strong> out of {pointsSum} points (
-        {Math.ceil(percentage)})
+        {Math.ceil(percentage)}%)
       </p>
       <p className="highscore">HighScore {highScore} points</p>
     </>
