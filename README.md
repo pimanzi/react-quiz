@@ -1,43 +1,39 @@
-# WorldWise
+# ReactQuickQuiz
 
-WorldWise is a React-based application built with Vite, designed to help users track and document their adventures. With WorldWise, users can mark places they've visited on a map and save their memories and experiences without uploading photos. It provides an engaging way to visualize and remember travels and adventures.
+ReactQuickQuiz is a React-based quiz application designed to help students review and reinforce their React skills. The app presents users with 15 questions that must be completed within 7 and a half minutes. It uses a fake API built with JSON Server to simulate real-world data interactions.
+
+## Demo
+
+Check out the live site: [ReactQuickQuiz](https://reactquickquiz.netlify.app/)
 
 ## Features
 
-- **Track Adventures:** Mark and view locations on an interactive map.
-- **Save Memories:** Document and save your experiences and notes related to each location.
-- **Map Integration:** Use an interactive map to visualize and explore visited places.
-- **Date Management:** Use `react-datepicker` to manage and select dates for your adventures.
-- **Free Access:** All core features are available for free.
+- **15 Questions**: Test your React knowledge with a set of 15 carefully curated questions.
+- **Time Limit**: Complete the quiz within 7 and a half minutes to challenge your speed and accuracy.
+- **Fake API**: The quiz data is fetched from a fake API hosted on Render using JSON Server.
 
-## Getting Started
+## Technologies Used
 
-To get started with WorldWise:
-
-1. **Visit the App:** [WorldWise Explorer](https://worldwiseexplorer.netlify.app/)
-
-2. **Authentication:** The app uses a fake authentication system. Use the credentials provided on the login page to access the application.
-
-## Technology Stack
-
-- **Frontend:** React.js
-- **Build Tool:** Vite
-- **Map Integration:** Leaflet
-- **Date Management:** `react-datepicker`
-- **Mock API:** JSON Server
+- **React**: For building the user interface.
+- **Create React App**: For setting up the React environment.
+- **JSON Server**: For creating a fake API to serve quiz data.
+- **Netlify**: For deploying the React application.
+- **Render**: For deploying the fake API.
 
 ## Installation
 
-To run the app locally, follow these steps:
+To run this project locally, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/pimanzi/worldWise.git
+   git clone https://github.com/pimanzi/react-quiz.git
+   cd react-quiz
+
    ```
 2. Navigate to the project directory
 
 ```
-cd worldWise
+cd react-quiz
 ```
 
 3. Install dependencies
